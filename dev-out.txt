@@ -1,0 +1,210 @@
+
+> smartcity-app@0.1.0 dev
+> next dev --port 3002
+
+▲ Next.js 16.4.0 (Turbopack)
+- Local:         http://localhost:3002
+- Network:       http://10.253.170.72:3002
+✓ Ready in 774ms
+✓ Running next.config.mjs took 24ms
+
+○ Compiling / ...
+ GET / 200 in 1187ms (next.js: 568ms, application-code: 618ms)
+ GET /citizen/notifications 200 in 108ms (next.js: 30ms, application-code: 79ms)
+ GET /admin/emergency 200 in 90ms (next.js: 23ms, application-code: 67ms)
+ GET /citizen/notifications 200 in 60ms (next.js: 5ms, application-code: 54ms)
+ GET /admin/emergency 200 in 80ms (next.js: 6ms, application-code: 74ms)
+ GET / 200 in 225ms (next.js: 2ms, application-code: 223ms)
+ GET /admin/emergency 200 in 55ms (next.js: 4ms, application-code: 51ms)
+ GET /citizen/notifications 200 in 67ms (next.js: 4ms, application-code: 63ms)
+ GET /citizen/notifications 200 in 58ms (next.js: 6ms, application-code: 52ms)
+ GET /citizen/notifications 200 in 54ms (next.js: 5ms, application-code: 48ms)
+ GET / 200 in 71ms (next.js: 4ms, application-code: 66ms)
+ GET /citizen/report 200 in 71ms (next.js: 22ms, application-code: 49ms)
+ GET /citizen/report 200 in 50ms (next.js: 3ms, application-code: 47ms)
+ GET /citizen/my-reports 200 in 86ms (next.js: 21ms, application-code: 65ms)
+ GET /citizen/my-reports 200 in 59ms (next.js: 3ms, application-code: 56ms)
+ GET /citizen/map 200 in 68ms (next.js: 23ms, application-code: 45ms)
+ GET /citizen/notifications 200 in 52ms (next.js: 3ms, application-code: 49ms)
+ GET /citizen/map 200 in 47ms (next.js: 4ms, application-code: 43ms)
+ GET /citizen/notifications 200 in 54ms (next.js: 5ms, application-code: 49ms)
+ GET /citizen/profile 200 in 70ms (next.js: 24ms, application-code: 46ms)
+ GET /citizen/profile 200 in 52ms (next.js: 3ms, application-code: 49ms)
+ GET / 200 in 181ms (next.js: 2ms, application-code: 178ms)
+ GET /citizen/report 200 in 57ms (next.js: 3ms, application-code: 54ms)
+ GET / 200 in 70ms (next.js: 4ms, application-code: 67ms)
+ GET /citizen/report 200 in 47ms (next.js: 3ms, application-code: 43ms)
+ GET /citizen/my-reports 200 in 62ms (next.js: 4ms, application-code: 58ms)
+ GET /citizen/my-reports/RPT-001 200 in 799ms (next.js: 621ms, application-code: 178ms)
+ GET /citizen/my-reports/RPT-001 200 in 63ms (next.js: 15ms, application-code: 49ms)
+ GET /citizen/my-reports/RPT-001 200 in 45ms (next.js: 4ms, application-code: 41ms)
+ GET / 200 in 60ms (next.js: 4ms, application-code: 56ms)
+ GET /citizen/map 200 in 57ms (next.js: 5ms, application-code: 52ms)
+ GET /citizen/notifications 200 in 56ms (next.js: 4ms, application-code: 52ms)
+ GET /citizen/profile 200 in 56ms (next.js: 5ms, application-code: 51ms)
+ GET /admin 200 in 98ms (next.js: 24ms, application-code: 74ms)
+ GET /admin/complaints 200 in 71ms (next.js: 22ms, application-code: 49ms)
+ GET /admin/departments 200 in 197ms (next.js: 80ms, application-code: 117ms)
+ GET /admin/departments 200 in 67ms (next.js: 3ms, application-code: 64ms)
+ GET /admin 200 in 68ms (next.js: 3ms, application-code: 65ms)
+ GET /admin/complaints 200 in 49ms (next.js: 5ms, application-code: 44ms)
+ GET /citizen/notifications 200 in 51ms (next.js: 3ms, application-code: 47ms)
+ GET /admin/departments 200 in 60ms (next.js: 3ms, application-code: 56ms)
+ GET /admin/traffic 200 in 69ms (next.js: 23ms, application-code: 46ms)
+ GET /admin/waste 200 in 64ms (next.js: 21ms, application-code: 43ms)
+ GET /admin/streetlights 200 in 68ms (next.js: 20ms, application-code: 47ms)
+ GET /admin/emergency 200 in 56ms (next.js: 4ms, application-code: 52ms)
+ GET /admin/analytics 200 in 68ms (next.js: 22ms, application-code: 46ms)
+ GET /admin/users 200 in 65ms (next.js: 23ms, application-code: 42ms)
+ GET /admin/settings 200 in 65ms (next.js: 21ms, application-code: 44ms)
+ GET /citizen/notifications 200 in 54ms (next.js: 4ms, application-code: 50ms)
+ GET /citizen/profile 200 in 49ms (next.js: 3ms, application-code: 46ms)
+ GET /citizen/profile 200 in 49ms (next.js: 4ms, application-code: 45ms)
+ GET / 200 in 69ms (next.js: 4ms, application-code: 64ms)
+ GET / 200 in 21ms (next.js: 4ms, application-code: 16ms)
+ GET / 200 in 61ms (next.js: 3ms, application-code: 58ms)
+ GET /admin 200 in 65ms (next.js: 3ms, application-code: 61ms)
+ GET / 200 in 100ms (next.js: 5ms, application-code: 95ms)
+✓ Compiled in 124ms
+ GET / 200 in 40ms (next.js: 11ms, application-code: 30ms)
+✓ Compiled in 197ms
+ GET / 200 in 38ms (next.js: 6ms, application-code: 33ms)
+✓ Compiled in 162ms
+ GET / 200 in 43ms (next.js: 10ms, application-code: 32ms)
+✓ Compiled in 57ms
+✓ Compiled in 54ms
+✓ Compiled in 47ms
+✓ Compiled in 43ms
+✓ Compiled in 40ms
+✓ Compiled in 40ms
+✓ Compiled in 40ms
+✓ Compiled in 35ms
+ GET / 200 in 32ms (next.js: 3ms, application-code: 30ms)
+✓ Compiled in 78ms
+ GET / 200 in 31ms (next.js: 5ms, application-code: 27ms)
+✓ Compiled in 58ms
+ GET / 200 in 35ms (next.js: 2ms, application-code: 32ms)
+ GET / 200 in 29ms (next.js: 4ms, application-code: 26ms)
+✓ Compiled in 56ms
+✓ Compiled in 90ms
+ GET / 200 in 65ms (next.js: 3ms, application-code: 62ms)
+ GET / 200 in 29ms (next.js: 1.9ms, application-code: 28ms)
+✓ Compiled in 65ms
+ GET / 200 in 28ms (next.js: 1.9ms, application-code: 26ms)
+ GET / 200 in 30ms (next.js: 1.9ms, application-code: 29ms)
+✓ Compiled in 61ms
+ GET / 200 in 25ms (next.js: 1.9ms, application-code: 23ms)
+✓ Compiled in 91ms
+ GET / 200 in 37ms (next.js: 4ms, application-code: 33ms)
+✓ Compiled in 19ms
+ GET / 200 in 31ms (next.js: 1.9ms, application-code: 29ms)
+✓ Compiled in 77ms
+ GET / 200 in 29ms (next.js: 1.5ms, application-code: 27ms)
+✓ Compiled in 68ms
+ GET / 200 in 30ms (next.js: 3ms, application-code: 27ms)
+✓ Compiled in 57ms
+ GET / 200 in 32ms (next.js: 3ms, application-code: 28ms)
+✓ Compiled in 45ms
+ GET / 200 in 26ms (next.js: 2ms, application-code: 24ms)
+✓ Compiled in 54ms
+ GET / 200 in 32ms (next.js: 3ms, application-code: 30ms)
+ GET / 200 in 28ms (next.js: 1.8ms, application-code: 26ms)
+✓ Compiled in 55ms
+✓ Compiled in 59ms
+ GET / 200 in 31ms (next.js: 2ms, application-code: 29ms)
+✓ Compiled in 36ms
+ GET / 200 in 32ms (next.js: 2ms, application-code: 29ms)
+✓ Compiled in 88ms
+ GET / 200 in 30ms (next.js: 3ms, application-code: 27ms)
+✓ Compiled in 59ms
+ GET / 200 in 28ms (next.js: 3ms, application-code: 26ms)
+ GET /about 200 in 84ms (next.js: 23ms, application-code: 61ms)
+ GET /services 200 in 104ms (next.js: 25ms, application-code: 80ms)
+ GET /map 200 in 80ms (next.js: 24ms, application-code: 56ms)
+✓ Compiled in 101ms
+ GET /map 200 in 69ms (next.js: 5ms, application-code: 64ms)
+✓ Compiled in 140ms
+ GET /map 200 in 70ms (next.js: 5ms, application-code: 65ms)
+✓ Compiled in 118ms
+ GET /map 200 in 65ms (next.js: 3ms, application-code: 62ms)
+✓ Compiled in 99ms
+ GET /map 200 in 72ms (next.js: 4ms, application-code: 67ms)
+ GET / 200 in 306ms (next.js: 3ms, application-code: 302ms)
+ GET /register 200 in 54ms (next.js: 18ms, application-code: 36ms)
+ GET /citizen/dashboard 200 in 116ms (next.js: 27ms, application-code: 89ms)
+ GET /citizen/report 200 in 70ms (next.js: 26ms, application-code: 44ms)
+ GET /citizen/my-reports 200 in 89ms (next.js: 21ms, application-code: 68ms)
+ GET /citizen/map 200 in 72ms (next.js: 19ms, application-code: 52ms)
+ GET /citizen/notifications 200 in 88ms (next.js: 29ms, application-code: 59ms)
+ GET /citizen/profile 200 in 92ms (next.js: 29ms, application-code: 63ms)
+ GET /citizen/my-reports 200 in 62ms (next.js: 3ms, application-code: 59ms)
+ GET /admin 200 in 103ms (next.js: 25ms, application-code: 78ms)
+ GET /admin/departments 200 in 94ms (next.js: 25ms, application-code: 69ms)
+ GET /admin/traffic 200 in 83ms (next.js: 24ms, application-code: 58ms)
+ GET /admin/waste 200 in 88ms (next.js: 25ms, application-code: 63ms)
+ GET /admin/streetlights 200 in 89ms (next.js: 22ms, application-code: 67ms)
+ GET /admin/emergency 200 in 83ms (next.js: 23ms, application-code: 60ms)
+ GET /admin/analytics 200 in 94ms (next.js: 25ms, application-code: 70ms)
+ GET /admin/users 200 in 97ms (next.js: 23ms, application-code: 74ms)
+ GET /admin/settings 200 in 85ms (next.js: 26ms, application-code: 59ms)
+ GET /citizen/profile 200 in 60ms (next.js: 4ms, application-code: 56ms)
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (0.5s elapsed so far; last modified: "\\\\?\\C:\\Users\\Niket\\OneDrive\\Desktop\\SmartCity AI\\smartcity-app\\node_modules\\@supabase\\realtime-js\\dist\\main\\phoenix\\socketAdapter.d.ts.map").
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (1.5s elapsed so far; last modified: "\\\\?\\C:\\Users\\Niket\\OneDrive\\Desktop\\SmartCity AI\\smartcity-app\\node_modules\\@supabase\\phoenix\\priv\\static\\phoenix.cjs.js.map").
+  Reload env: .env.local
+  Reload env: .env.local
+✓ Compiled in 48ms
+✓ Compiled in 15ms
+✓ Compiled in 32ms
+ GET /citizen/profile 200 in 1150ms (next.js: 385ms, proxy.ts: 300ms, application-code: 465ms)
+ GET / 200 in 139ms (next.js: 65ms, proxy.ts: 11ms, application-code: 64ms)
+ GET /login 200 in 735ms (next.js: 683ms, proxy.ts: 9ms, application-code: 43ms)
+ GET /admin 200 in 183ms (next.js: 78ms, proxy.ts: 13ms, application-code: 92ms)
+ GET /citizen/profile 200 in 99ms (next.js: 25ms, proxy.ts: 13ms, application-code: 61ms)
+ GET /citizen/dashboard 200 in 183ms (next.js: 66ms, proxy.ts: 12ms, application-code: 105ms)
+ GET /citizen/report 200 in 117ms (next.js: 58ms, proxy.ts: 12ms, application-code: 47ms)
+ GET /citizen/my-reports 200 in 200ms (next.js: 115ms, proxy.ts: 10ms, application-code: 75ms)
+ GET /citizen/map 200 in 157ms (next.js: 77ms, proxy.ts: 14ms, application-code: 65ms)
+ GET /citizen/my-reports 200 in 98ms (next.js: 23ms, proxy.ts: 8ms, application-code: 68ms)
+ GET /admin/complaints 200 in 257ms (next.js: 169ms, proxy.ts: 11ms, application-code: 77ms)
+ GET /admin/departments 200 in 151ms (next.js: 62ms, proxy.ts: 9ms, application-code: 80ms)
+ GET /citizen/profile 200 in 85ms (next.js: 26ms, proxy.ts: 8ms, application-code: 51ms)
+ GET /citizen/my-reports 200 in 84ms (next.js: 13ms, proxy.ts: 7ms, application-code: 65ms)
+ GET /admin/departments 200 in 98ms (next.js: 15ms, proxy.ts: 7ms, application-code: 75ms)
+ GET /admin/waste 200 in 136ms (next.js: 57ms, proxy.ts: 8ms, application-code: 72ms)
+ GET /admin/users 200 in 235ms (next.js: 136ms, proxy.ts: 8ms, application-code: 91ms)
+ GET /citizen/my-reports 200 in 112ms (next.js: 33ms, proxy.ts: 10ms, application-code: 70ms)
+ GET /citizen/report 200 in 80ms (next.js: 26ms, proxy.ts: 11ms, application-code: 43ms)
+ GET /admin/complaints 200 in 148ms (next.js: 61ms, proxy.ts: 9ms, application-code: 78ms)
+ GET /admin/complaints 200 in 222ms (next.js: 12ms, proxy.ts: 8ms, application-code: 203ms)
+ GET /admin/complaints 200 in 209ms (next.js: 11ms, proxy.ts: 8ms, application-code: 190ms)
+ GET /admin/complaints 200 in 249ms (next.js: 13ms, proxy.ts: 8ms, application-code: 228ms)
+ GET /admin/complaints 200 in 251ms (next.js: 12ms, proxy.ts: 7ms, application-code: 232ms)
+✓ Compiled in 49ms
+✓ Compiled in 279ms
+✓ Compiled in 94ms
+✓ Compiled in 466ms
+✓ Compiled in 202ms
+✓ Compiled in 30ms
+✓ Compiled in 175ms
+✓ Compiled in 67ms
+ GET /login?next=%2Fadmin%2Fcomplaints 200 in 1329ms (next.js: 1029ms, proxy.ts: 8ms, application-code: 291ms)
+ GET / 200 in 194ms (next.js: 119ms, proxy.ts: 12ms, application-code: 64ms)
+ GET /register 200 in 144ms (next.js: 96ms, proxy.ts: 9ms, application-code: 39ms)
+ GET /login 200 in 84ms (next.js: 23ms, proxy.ts: 11ms, application-code: 49ms)
+ GET /register 200 in 204ms (next.js: 161ms, proxy.ts: 8ms, application-code: 35ms)
+ GET /login 200 in 91ms (next.js: 33ms, proxy.ts: 9ms, application-code: 49ms)
+ GET /?error=access_denied&error_code=otp_expired&error_description=Email+link+is+invalid+or+has+expired 200 in 239ms (next.js: 33ms, proxy.ts: 9ms, application-code: 197ms)
+ GET /login 200 in 75ms (next.js: 12ms, proxy.ts: 12ms, application-code: 51ms)
+ GET /?error=access_denied&error_code=otp_expired&error_description=Email+link+is+invalid+or+has+expired 200 in 112ms (next.js: 10ms, proxy.ts: 9ms, application-code: 93ms)
+ GET /register 200 in 65ms (next.js: 11ms, proxy.ts: 8ms, application-code: 46ms)
+ GET /login 200 in 80ms (next.js: 18ms, proxy.ts: 7ms, application-code: 55ms)
+ GET /?error=access_denied&error_code=otp_expired&error_description=Email+link+is+invalid+or+has+expired 200 in 124ms (next.js: 13ms, proxy.ts: 7ms, application-code: 105ms)
+ GET /login 200 in 71ms (next.js: 13ms, proxy.ts: 8ms, application-code: 49ms)
+ GET /register 200 in 80ms (next.js: 29ms, proxy.ts: 9ms, application-code: 43ms)
+ GET /register 200 in 216ms (next.js: 18ms, proxy.ts: 11ms, application-code: 186ms)
+ GET / 200 in 78ms (next.js: 13ms, proxy.ts: 7ms, application-code: 58ms)
+ GET /register 200 in 56ms (next.js: 12ms, proxy.ts: 10ms, application-code: 34ms)
+ GET /citizen/dashboard 307 in 921ms (proxy.ts: 188ms)
+ GET /citizen/dashboard 200 in 858ms (next.js: 11ms, proxy.ts: 183ms, application-code: 664ms)
+ GET /citizen/report 200 in 1253ms (next.js: 422ms, proxy.ts: 742ms, application-code: 89ms)
+ GET /citizen/report 200 in 232ms (next.js: 13ms, proxy.ts: 184ms, application-code: 35ms)

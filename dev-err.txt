@@ -1,0 +1,84 @@
+⚠ Warning: Next.js ignored package-lock.json in C:\Users\Niket because it is outside the current Git repository (C:\Users\Niket\OneDrive\Desktop\SmartCity AI\smartcity-app).
+ To use this directory, set `turbopack.root` in your Next.js config.
+
+Error: Route "/citizen/my-reports/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at <unknown> (app\citizen\my-reports\[id]\page.js:17:59)
+    at Array.find (<anonymous>)
+    at ReportDetailPage (app\citizen\my-reports\[id]\page.js:17:31)
+  15 |
+  16 | export default function ReportDetailPage({ params }) {
+> 17 |   const report = DEMO_REPORTS.find((r) => r.id === params.id);
+     |                                                           ^
+  18 |   if (!report) notFound();
+  19 |
+  20 |   const status   = STATUS_CONFIG[report.status]     ?? STATUS_CONFIG.Open;
+Error: Route "/citizen/my-reports/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at Module.generateMetadata (app\citizen\my-reports\[id]\page.js:13:36)
+  11 |
+  12 | export function generateMetadata({ params }) {
+> 13 |   return { title: `Report ${params.id}` };
+     |                                    ^
+  14 | }
+  15 |
+  16 | export default function ReportDetailPage({ params }) {
+Error: Route "/citizen/my-reports/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at <unknown> (app\citizen\my-reports\[id]\page.js:17:59)
+    at Array.find (<anonymous>)
+    at ReportDetailPage (app\citizen\my-reports\[id]\page.js:17:31)
+  15 |
+  16 | export default function ReportDetailPage({ params }) {
+> 17 |   const report = DEMO_REPORTS.find((r) => r.id === params.id);
+     |                                                           ^
+  18 |   if (!report) notFound();
+  19 |
+  20 |   const status   = STATUS_CONFIG[report.status]     ?? STATUS_CONFIG.Open;
+Error: Route "/citizen/my-reports/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at Module.generateMetadata (app\citizen\my-reports\[id]\page.js:13:36)
+  11 |
+  12 | export function generateMetadata({ params }) {
+> 13 |   return { title: `Report ${params.id}` };
+     |                                    ^
+  14 | }
+  15 |
+  16 | export default function ReportDetailPage({ params }) {
+Error: Route "/citizen/my-reports/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at <unknown> (app\citizen\my-reports\[id]\page.js:17:59)
+    at Array.find (<anonymous>)
+    at ReportDetailPage (app\citizen\my-reports\[id]\page.js:17:31)
+  15 |
+  16 | export default function ReportDetailPage({ params }) {
+> 17 |   const report = DEMO_REPORTS.find((r) => r.id === params.id);
+     |                                                           ^
+  18 |   if (!report) notFound();
+  19 |
+  20 |   const status   = STATUS_CONFIG[report.status]     ?? STATUS_CONFIG.Open;
+Error: Route "/citizen/my-reports/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at Module.generateMetadata (app\citizen\my-reports\[id]\page.js:13:36)
+  11 |
+  12 | export function generateMetadata({ params }) {
+> 13 |   return { title: `Report ${params.id}` };
+     |                                    ^
+  14 | }
+  15 |
+  16 | export default function ReportDetailPage({ params }) {
+⚠ The "middleware" file convention is deprecated. Please use "proxy" instead.
+
+  To migrate automatically, run:
+  npx @next/codemod@canary middleware-to-proxy .
+
+  Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+⨯ unhandledRejection: Error: Both middleware file "./middleware.js" and proxy file "./proxy.js" are detected. Please use "./proxy.js" only. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+    at ignore-listed frames
+⨯ The file "./proxy.js" must export a function, either as a default export or as a named "proxy" export.
+This function is what Next.js runs for every request handled by this proxy (previously called middleware).
+
+Why this happens:
+- You are migrating from `middleware` to `proxy`, but haven't updated the exported function.
+- The file exists but doesn't export a function.
+- The export is not a function (e.g., an object or constant).
+- There's a syntax error preventing the export from being recognized.
+
+To fix it:
+- Ensure this file has either a default or "proxy" function export.
+
+Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
